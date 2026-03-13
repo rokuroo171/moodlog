@@ -21,5 +21,6 @@ Just HTML, CSS, and JS.
 
 ---
 
-Built by [me](https://github.com/rokuroo171) — day 1 of 1day1project
+Built by [me](https://github.com/rokuroo171) — day 2 of 1day1project
+
 
