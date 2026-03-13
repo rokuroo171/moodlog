@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>moodlog — how are you today?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Syne+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+      <p class="logo">moodlog</p>
+      <h1>how are you<br/>today?</h1>
+      <p class="date" id="date"></p>
+    </header>
+
+    <!-- mood selection grid -->
+    <div class="moods" id="moodGrid">
+      <div class="mood-card" data-mood="happy">
+        <span class="mood-emoji">😊</span>
+        <span class="mood-name">Happy</span>
+      </div>
+      <div class="mood-card" data-mood="sad">
+        <span class="mood-emoji">😢</span>
+        <span class="mood-name">Sad</span>
+      </div>
+      <div class="mood-card" data-mood="angry">
+        <span class="mood-emoji">😡</span>
+        <span class="mood-name">Angry</span>
+      </div>
+      <div class="mood-card" data-mood="anxious">
+        <span class="mood-emoji">😰</span>
+        <span class="mood-name">Anxious</span>
+      </div>
+      <div class="mood-card" data-mood="calm">
+        <span class="mood-emoji">😌</span>
+        <span class="mood-name">Calm</span>
+      </div>
+      <div class="mood-card" data-mood="tired">
+        <span class="mood-emoji">😴</span>
+        <span class="mood-name">Tired</span>
+      </div>
+    </div>
+
+    <!-- optional note -->
+    <div class="note-wrap">
+      <span class="note-label">add a note (optional)</span>
+      <textarea id="noteInput" placeholder="what's on your mind?"></textarea>
+    </div>
+
+    <!-- save button -->
+    <button class="btn-save" id="saveBtn">Log mood</button>
+
+    <!-- history -->
+    <div class="history-wrap">
+      <p class="history-title">// recent logs</p>
+      <div class="history-list" id="historyList"></div>
+    </div>
+
+    <!-- toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
