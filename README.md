@@ -17,8 +17,9 @@ Just HTML, CSS, and JS.
 
 ## Live Demo
 
-coming soon.
+[here](https://moodlog-ebon.vercel.app/)
 
 ---
 
 Built by [me](https://github.com/rokuroo171) — day 1 of 1day1project
+
